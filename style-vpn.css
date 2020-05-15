@@ -1,0 +1,45 @@
+h1 {
+  font-size: 45px;
+  text-align: center;
+  border-bottom: 1px solid gray;
+  margin:0;
+  padding:20px;
+}
+h2 {
+  font-size: 35px;
+  text-align: left;
+  border-bottom: 1px solid gray;
+  margin:0;
+  padding:20px;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  font-size: 30px;
+  margin: 20px;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr
+}
+ol {
+  font-size: 30px;
+  margin: 20px;
+  padding: 120px;
+  border: 10px solid gray
+}
+img {
+  display: block; margin: 0px auto;
+}
+table {
+  width: 100%;
+}
+td {
+  padding: 20px;
+  border: 1px solid #444444;
+}
+#button {
+  display: block; margin: 20px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr
+}
