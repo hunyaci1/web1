@@ -16,6 +16,24 @@
   }
   body {
     margin:0px;
+    <div id="top">
+      <input class="night_day" type="button" value="Night" onclick="
+      var target = document.querySelector('body');
+      if(this.value === 'Night') {
+        target.style.backgroundColor ='black';
+        target.style.color = 'white';
+        this.value = 'Day'
+      } else {
+        target.style.backgroundColor ='white';
+        target.style.color = 'black';
+        this.value = 'Night'
+      }
+      ">
+    </div>
+  }
+  #top {
+    text-align: right;
+    padding: 20px;
   }
   #grid {
     display: grid;
@@ -25,7 +43,7 @@
     padding-left: 33px
   }
   #grid #article {
-    padding-left: 20px
+    padding-left: 20px;
   }
 @media (max-width: 800px) {
   #grid {
@@ -37,4 +55,16 @@ ol {
 h1 {
   font-size: 45px;
   border-bottom: none;
+}
+.JS{
+  font-weight: bold;
+}
+#first{
+  color: coral;
+}
+#second{
+  font-size: 5px;
+}
+  span{
+    color: blue;
 }
